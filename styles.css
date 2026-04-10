@@ -1,0 +1,15 @@
+* { 
+margin: 0; 
+padding: 0; 
+box-sizing: border-box; 
+} 
+
+body { 
+    font-family: 'Nunito';  /* reemplazar con la fuente elegida */ 
+    background-color: #ffe6a7ff;             
+    /* reemplazar con el color de fondo */ 
+    color: #000000; 
+} 
+h1, h2, h3 { 
+font-family: 'Bebas Neue', sans-serif; /* reemplazar con la fuente de títulos */ 
+} 
