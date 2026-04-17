@@ -1,39 +1,186 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Iosevka+Charon:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Momo+Signature&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <title>La Rueda</title>
-</head>
-<body>
-   <header>
-    <nav>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Iosevka+Charon:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Momo+Signature&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <title>La Rueda</title>
+        <style>
 
-    </nav>
-   </header> 
-   <section>
-    <h1>Prueba</h1>
-    <!-- Sobre nosotros -->
-   </section>
-   <section>
-    <!-- menu -->
-   </section>
-   <section>
-    <!-- chefs -->
-   </section>
-   <section>
-    <!-- salones -->
-   </section>
-   <section>
-    <!-- reservas -->
-   </section>
-   <footer>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
 
-   </footer>
-</body>
+            :root {
+                --dark-wine: #6f1d1b;
+                --chocolate-brown: #99582a;
+                --light-apricot: #ffe6a7;
+            }
+
+            body {
+                font-family: 'Nunito', Arial, sans-serif;
+                background-color: var(--dark-wine);
+                color: var(--light-apricot);
+                line-height: 1.6;
+            }
+
+            header {
+                background-color: var(--chocolate-brown);
+                padding: 15px 20px;
+            }
+
+            nav {
+                max-width: 1100px;
+                margin: 0 auto;
+            }
+
+            h1 {
+                font-family: 'Playwrite Ireland', Georgia, serif;
+                font-size: 64px;
+                text-align: center;
+                margin: 40px 0 20px;
+                letter-spacing: 3px;
+            }
+
+            section {
+                padding: 60px 20px;
+            }
+
+            .contenedor {
+                max-width: 900px;
+                margin: 0 auto;
+                text-align: center;
+            }
+
+            .la-rueda {
+                background-color: var(--dark-wine);
+            }
+
+            h2 {
+                font-family: 'Playwrite Ireland', Georgia, serif;
+                font-size: 36px;
+                margin-bottom: 25px;
+                letter-spacing: 2px;
+            }
+
+            p {
+                font-size: 18px;
+                margin-bottom: 20px;
+            }
+
+            section:nth-of-type(even) {
+                background-color: var(--chocolate-brown);
+            }
+
+            footer {
+                background-color: #000;
+                color: var(--light-apricot);
+                text-align: center;
+                padding: 30px 20px;
+                font-size: 14px;
+            }
+
+            @media (max-width: 768px) {
+                h1 {
+                    font-size: 42px;
+                    letter-spacing: 2px;
+                }
+
+                h2 {
+                    font-size: 28px;
+                }
+
+                p {
+                    font-size: 16px;
+                }
+            }
+        </style>
+
+    </head>
+
+    <body>
+    
+        <header>
+    
+            <nav>
+
+            </nav>
+    
+        </header>
+    
+        <h1>La Rueda</h1>
+        
+        <section class="la-rueda">
+        
+            <div class="contenedor">
+        
+                <h2>Nosotros</h2>
+
+                <p>
+                Con años de historia y tradición, La Rueda es mucho más que un restaurante:
+                es un punto de encuentro donde la gastronomía y la música se cruzan de forma natural.
+                </p>
+
+                <p>
+                Reconocido por su famosa pizza redonda, que ha acompañado a generaciones de clientes,
+                el lugar también se destaca por sus legendarias ruedas musicales.
+                </p>
+
+                <p>
+                Inspirado en el espíritu de la roda do samba, La Rueda se convierte cada noche
+                en un espacio vivo donde músicos de todo el mundo se reúnen para tocar,
+                improvisar y compartir su arte sin guiones ni estructuras.
+                </p>
+
+                <p>
+                Artistas locales e internacionales encuentran aquí un hogar, sumándose
+                espontáneamente a la rueda y creando momentos únicos e irrepetibles.
+                </p>
+
+                <p>
+                El restaurante cuenta con instrumentos disponibles para quienes deseen participar,
+                asegurando que la música nunca se detenga y que cualquiera pueda ser parte
+                de la experiencia.
+                </p>
+       
+            </div>
+
+        </section>
+    
+        <section>
+    
+            <!-- menu -->
+    
+        </section>
+    
+        <section>
+        
+            <!-- chefs -->
+    
+        </section>
+    
+        <section>
+            
+            <!-- salones -->
+    
+        </section>
+    
+        <section>
+    
+            <!-- reservas -->
+    
+        </section>
+        
+        <footer>
+
+        </footer>
+    
+    </body>
+
 </html>
