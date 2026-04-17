@@ -3,7 +3,7 @@
 Restaurante nombre a pensar ( LA RUEDA )
 
 Nav Menu de opciones (Nicolas)
-Sobre nosotros (dahiana)
+Sobre nosotros (Paula)
 Menu de comida (Yo)
 Los chefs (dahiana)
 Salones (Nicolas)
@@ -13,7 +13,7 @@ Footer (Yo)
 	Direccion
 	Numero dce telefono
 	
-FUNETES
+FUENTES
 Titulo Playwrite Ireland
 Texto Nunito
 
