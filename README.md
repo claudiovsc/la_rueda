@@ -2,13 +2,13 @@
 
 Restaurante nombre a pensar ( LA RUEDA )
 
-Nav Menu de opciones (Nicolas)
+Nav Menu de opciones (Paula)
 Sobre nosotros (Paula)
-Menu de comida (Yo)
-Los chefs (dahiana)
+Menu de comida (Claudio)
+Los chefs (Dahiana)
 Salones (Nicolas)
-Reservas (Yo)
-Footer (Yo)
+Reservas (Claudio)
+Footer (Claudio)
 	Horario
 	Direccion
 	Numero dce telefono

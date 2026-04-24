@@ -1,15 +1,91 @@
-* { 
-margin: 0; 
-padding: 0; 
-box-sizing: border-box; 
-} 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-body { 
-    font-family: 'Nunito';  /* reemplazar con la fuente elegida */ 
-    background-color: #ffe6a7ff;             
-    /* reemplazar con el color de fondo */ 
-    color: #000000; 
-} 
-h1, h2, h3 { 
-font-family: 'Bebas Neue', sans-serif; /* reemplazar con la fuente de títulos */ 
-} 
+:root {
+    --dark-wine: #6f1d1b;
+    --chocolate-brown: #99582a;
+    --light-apricot: #ffe6a7;
+}
+
+body {
+    font-family: 'Nunito', Arial, sans-serif;
+    background-color: var(--dark-wine);
+    color: var(--light-apricot);
+    line-height: 1.6;
+}
+
+header {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 16px 32px;
+}
+
+nav {
+ display: flex;
+ gap: 24px;
+}
+
+h1 {
+    font-family: 'Playwrite Ireland', Georgia, serif;
+    font-size: 64px;
+    text-align: center;
+    margin: 40px 0 20px;
+    letter-spacing: 3px;
+}
+
+section {
+    padding: 60px 20px;
+}
+
+.contenedor {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.la-rueda {
+    background-color: var(--dark-wine);
+}
+
+h2 {
+    font-family: 'Playwrite Ireland', Georgia, serif;
+    font-size: 36px;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+section:nth-of-type(even) {
+    background-color: var(--chocolate-brown);
+}
+
+footer {
+    background-color: #000;
+    color: var(--light-apricot);
+    text-align: center;
+    padding: 30px 20px;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 42px;
+        letter-spacing: 2px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
