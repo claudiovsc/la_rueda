@@ -3,10 +3,9 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://fonts.googleapis.com/css2?family=Iosevka+Charon:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Momo+Signature&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Iosevka+Charon:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles.css">
         <title>La Rueda</title>
 
@@ -109,50 +108,57 @@
                 <form action="" method="GET">
 
                     <!-- Nombre -->
-                    <label for="nombre">Nombre:</label><br>
-                    <input type="text" id="nombre" name="nombre" required placeholder="Cosme Fulanito"><br><br>
-
+                     <div class="campoForm">
+                        <label for="nombre">Nombre:</label><br>
+                        <input type="text" id="nombre" name="nombre" required placeholder="Cosme Fulanito"><br>
+                    </div>
                     <!-- Email -->
-                    <label for="email">Email:</label><br>
-                    <input type="email" id="email" name="email" required placeholder="mailfulanito@example.com"><br><br>
-
+                     <div class="campoForm">
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email" required placeholder="mailfulanito@example.com"><br>
+                    </div>
                     <!-- Teléfono -->
-                    <label for="telefono">Teléfono:</label>Solo numeros<br>
-                    <input type="number" id="telefono" name="telefono" required placeholder="Solo numeros"><br><br>
+                    <div class="campoForm">
+                        <label for="telefono">Teléfono:</label><br>
+                        <input type="tel" id="telefono" name="telefono" required placeholder="Solo numeros"><br>
+                    </div>
 
                     <!-- Preferencia de contacto -->
                     <fieldset>
                         <legend>¿Cómo preferís que te contactemos?</legend>
                         <div class="opcion">
-                        <input type="radio" id="por-email" name="contacto" value="email">
-                        <label for="por-email">Email</label>
+                            <input type="radio" id="por-email" name="contacto" value="email">
+                            <label for="por-email">Email</label>
                         </div>
                         <div class="opcion">
-                        <input type="radio" id="por-tel" name="contacto" value="telefono">
-                        <label for="por-tel">Teléfono</label>
+                            <input type="radio" id="por-tel" name="contacto" value="telefono">
+                            <label for="por-tel">Teléfono</label>
                         </div>
                         <div class="opcion">
-                        <input type="radio" id="por-whatsapp" name="contacto" value="whatsapp">
-                        <label for="por-whatsapp">WhatsApp</label>
+                            <input type="radio" id="por-whatsapp" name="contacto" value="whatsapp">
+                            <label for="por-whatsapp">WhatsApp</label>
                         </div>
                     </fieldset>
+                    <br>
 
                     <!-- Motivo -->
-                    <div class="campo">
+                    <div class="campoForm">
                         <label for="motivo">Motivo del contacto</label>
                         <select id="motivo" name="motivo">
-                        <option value="">— Elegí una opción —</option>
-                        <option value="consulta">Consulta general</option>
-                        <option value="presupuesto">Pedir presupuesto</option>
-                        <option value="soporte">Soporte técnico</option>
-                        <option value="otro">Otro</option>
+                            <option value="">— Elegí una opción —</option>
+                            <option value="consulta">Consulta general</option>
+                            <option value="presupuesto">Pedir presupuesto</option>
+                            <option value="soporte">Soporte técnico</option>
+                            <option value="otro">Otro</option>
                         </select>
                     </div>
                     
 
                     <!-- Mensaje -->
-                    <label for="mensaje">Mensaje:</label><br>
-                    <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí..."></textarea><br><br>
+                     <div class="campoForm">
+                        <label for="mensaje">Mensaje:</label><br>
+                        <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí..."></textarea><br><br>
+                    </div>
 
                     <!-- Botón -->
                     <button type="submit">Enviar</button>
