@@ -136,4 +136,10 @@ textarea {
     border-radius: 4px;
     width: 70%;
 }
+
+#chefs {
+  text-align: center;
+  padding: 40px;
+}
+
 /* FIN CSS FORM */
