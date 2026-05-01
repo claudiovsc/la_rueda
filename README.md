@@ -13,9 +13,9 @@ Footer (Claudio)
 	Direccion
 	Numero dce telefono
 	
-FUENTES
-Titulo Playwrite Ireland
-Texto Nunito
+FUENTES usadas:
+	Bebas Neue
+	Iosevka Charon
 
 https://github.com/claudiovsc/la_rueda
 
