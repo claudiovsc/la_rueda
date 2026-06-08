@@ -34,6 +34,28 @@ nav {
     padding-left: 32px;
 }
 
+
+/*Probando flex en barra de navegacion */
+
+header { 
+display: flex; 
+justify-content: space-between; 
+align-items: center; 
+padding: 16px 32px; 
+} 
+nav { 
+display: flex; 
+gap: 24px; 
+} 
+/*Probando flex en barra de navegacion FIN */
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
 h1 {
     font-family: var(--fuente-titulos);
     font-size: 64px;
@@ -48,10 +70,38 @@ section {
     max-width: 900px;
     margin: 0 auto;
     text-align: center;
+
+    
 }
+
 
 .la-rueda {
     background-color: var(--dark-wine);
+}
+
+/*Probando flex con tarjetas o columnas */
+.la-rueda .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.la-rueda p {
+    flex: 1 1 280px;
+    padding: 24px;
+    background-color: rgb(88, 40, 40);
+    border-radius: 8px;
+}
+
+/*Probando flex con tarjetas o columnas  FIN*/
+.hero { 
+display: flex; 
+flex-direction: column; 
+justify-content: center; 
+align-items: center; 
+min-height: 100vh; 
+text-align: center; 
 }
 
 h2 {
